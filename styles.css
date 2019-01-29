@@ -5,7 +5,7 @@ html {
     margin: 0;
 }
 
-.catList {
+.classListStyle {
     float: left;
     padding-top: 2%;
     margin: 0;
@@ -13,9 +13,10 @@ html {
     height: 100%;
     width: 20%;
     display: block;
+    list-style: none;
 }
 
-.catList li {
+.classListStyle li {
     padding-left: 40px;
     padding-top: 40px;
 }
@@ -27,4 +28,8 @@ html {
     width: 80%;
     display: block;
     float: right;
+}
+
+.displayArea li {
+    list-style: none;
 }
